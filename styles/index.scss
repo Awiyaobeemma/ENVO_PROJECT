@@ -11,6 +11,7 @@
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
+  // position: relative;
 }
 
 // heading
@@ -137,4 +138,180 @@ body {
       }
     }
   }
+}
+
+//reason
+.reason {
+  margin-left: 55px;
+  margin-top: 0em;
+  height: 700px;
+  display: flex;
+
+  .reason-left {
+
+    .video-background {
+      background-color: $primary;
+      height: 620px;
+      width: 552px;
+      z-index: -2;
+      position: relative;
+      top: 38px;
+      left: 35px;
+      // margin-top: -108%;
+
+    }
+
+
+    iframe {
+      height: 635px;
+      width: 552px;
+      z-index: 1;
+      position: absolute;
+      top: 800px;
+
+    }
+  }
+
+
+
+
+  &-bottom {
+    background-color: black;
+    height: 620px;
+    width: 552px;
+    align-items: center;
+  }
+
+  .reason-right {
+    margin-left: 30px;
+    align-items: center;
+    width: 70%;
+    height: 620px;
+
+    &-heading {
+      width: 641px;
+      margin-left: 60px;
+      font-weight: 700px;
+      font-size: 48px;
+    }
+
+    .reason-text {
+      width: 572px;
+      margin-left: 70px;
+    }
+  }
+
+}
+
+//Report
+.report {
+  background-color: $primary;
+  height: 809;
+  top: 1772px;
+  padding: 20px;
+ 
+  }
+
+  &-heading {
+    color: rgba(255, 255, 255, 1);
+    height: 58px;
+    width: 350px;
+    margin: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+  }
+
+  &-line {
+    background-color: white;
+    height: 11px;
+    width: 110px;
+    margin: 40px;
+    margin-top: -3%;
+
+  }
+
+  &-box {
+    background-color: white;
+    width: 230px;
+    height: 350px;
+    margin: 60px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 1%;
+    
+    
+  }
+
+&-image-name {
+  color:rgba(2, 37, 10, 1);
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+report-image-date {
+  font-size: 13px;
+}
+
+&-text {
+  width: 230px;
+  height: 86px;
+  float: left;
+  font-size: 10px;
+}
+
+&-button {
+  padding: 1.5rem 4.375rem;
+  border-radius: 5px;
+  margin-left: 40%;
+  margin-bottom: 50px;
+}
+
+.boxes {
+  display: flex;
+  margin: -5px;
+  padding-left: -40px;
+}
+
+
+
+//gallery
+.gallery {
+  height: 700px;
+  width: 100%;
+  margin-block: 3rem;
+
+  &-heading {
+    padding-left: 50px;
+    list-style: square;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+
+  }
+
+  &-image_one {
+    display: flex;
+    // position: absolute;
+    height: 257px;
+    width: 317px;
+    padding: 0px 10px 0px 50px;
+  }
+
+  #last-images {
+    padding: 0 10px 10px 50px;
+  }
+
+}
+.report-image-one {
+  width: 5em;
+}
+
+
+//footer
+.design {
+  background-color: $primary;
+  color: white;
+  padding: 0.1rem;
+  text-align: center;
 }

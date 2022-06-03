@@ -9,6 +9,9 @@
 .text-center {
   text-align: center;
 }
+.primary-color {
+  color: $primary;
+}
 
 .container {
   width: 100%;
@@ -28,6 +31,7 @@
   }
 
   &.white {
+    color: black;
     background-color: white;
   }
 }
